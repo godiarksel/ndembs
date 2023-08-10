@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godfrey Arksel</title>
+    <link rel="icon" type="image/png" href="./assets/images/logo.jpg"/>
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="tracker sm-hidden"></div>
+    <!--! === HEADER === -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="./index.html" class="navbar__logo">
+                <img src="./assets/images/mylogo.png" alt="logo" class="navbar__logo-img">
+            </a>
+           <div class="navbar__menu">
+            <ul class="navbar__list">
+                <li class="navbar__list-item">
+                    <a href="#home" class="navbar__list-link">Home</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#portfolio" class="navbar__list-link">Portfolio</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#services" class="navbar__list-link">Services</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#aboutme" class="navbar__list-link">About Me</a>
+                </li>
+                <li class="navbar__list-item">
+                    <a href="#webProj" class="navbar__list-link">Web Projects</a>
+                </li>
+            </ul>
+           </div>
+           <div class="navbar__btn-group">
+            <a href="mailto:godiarksel@gmail.com" class="btn btn--text btn--transparent" target="_blank">Contact me</a>
+            <button type="button" class="btn btn--action" id="menu-toggler">
+                <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.3333 0.999999L0.999918 1" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M17.3333 6.83333L0.999916 6.83333" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M10.3333 12.6667L0.999918 12.6667" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+           </div> 
+        </nav>
+    </header>
+    <!--! === MAIN === -->
+    <main>
+    <!--! === SHOWCASE === -->
+    <section class="showcase" id="home">
+        <div class="showcase__container container">
+            <h1 class="showcase__title title title--main">Hey, I'm Godfrey, a graphic designer and web developer.</h1>
+        </div>
+
+        <img src="./assets/images/mars.png" alt="" class="shape has-in-common sm-hidden" dataoffset=".05" style="--delay:0.5s">
+        <img src="./assets/images/jupiter.png" alt="" class="shape shape-lg has-in-common sm-hidden" dataoffset=".02" style="--delay:0.35s">
+        <img src="./assets/images/earth.png" alt="" class="shape shape-md has-in-common sm-hidden" dataoffset=".025" style="--delay:0.25s">
+
+    </section>
+    <!--! === PORTFOLIO === -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__container container">
+            <div class="portfolio__metadata section-metadata">
+                <h2 class="title">Design Projects</h2>
+            </div>
+            <div class="swiper myswiper">
+                <div class="swiper-wrapper" id="swiper">
+            
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!--! === SERVICES === -->
+    <section class="services" id="services">
+        <div class="services__container container">
+            <div class="services__metadata section-metadata">
+                <h2 class="title">Services I provide</h2>
+            </div>
+            <div class="services__image-wrapper">
+                <img src="./assets/images/mypic.jpg" alt="">
+            </div> 
+            <div class="services__list">
+                <div class="services__list-divider">
+                    <article class="services__list-item">
+                        <!-- <i class="ri-camera-line services__list-icon"></i> -->
+                        <i class="ri-pencil-ruler-fill services__list-icon"></i>
+                        <h3 class="services__list-title title">Graphic Design</h3>
+                        <p class="services__list-description">
+                            The use of various tools and software to create visual assets such as illustrations, brochures, advertisements and more.
+                        </p>
+                    </article>
+                    <article class="services__list-item">
+                        <!-- <i class="ri-vidicon-2-line services__list-icon"></i> -->
+                        <i class="ri-macbook-fill services__list-icon"></i>
+                        <h3 class="services__list-title title">Web Development</h3>
+                        <p class="services__list-description">
+                            The technical implementation of front-end design and functionality of websites, 
+                            making it accessible and interactive for your users.
+                        </p>
+                    </article>
+                </div>
+                <article class="services__list-item">
+                    <!-- <i class="ri-flight-takeoff-line services__list-icon"></i> -->
+                    <i class="ri-award-fill services__list-icon"></i>
+                    <h3 class="services__list-title title">Logo Design</h3>
+                    <p class="services__list-description">
+                        I also specialize in creating unique and memorable logos for 
+                        individuals, businesses, organizations, or brands.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--! === webProj === -->
+    <section class="webProj" id="webProj">
+        <div class="webProj__container container">
+            <div class="webProj__metadata section-metadata">
+                <h2 class="title webProj__title">Latest Web Projects</h2>
+                <a href="https://github.com/godiarksel?tab=repositories" class="btn btn--text btn--transparent" target="_blank">View all Projects</a>
+            </div>
+            <article class="webProj__post post--left">
+                <picture class="webProj__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/proj_img_1.png">
+                    <img src="./assets/images/proj_img_1.PNG" alt="project-one-image">
+                </picture>
+                <h3 class="webProj__post-title title">2D Action Game</h3>
+                <a href="https://github.com/godiarksel/html-canvas" class="btn btn--text btn--transparent" target="_blank">View More</a>
+            </article>
+            <article class="webProj__post post--right">
+                <picture class="webProj__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/proj_img_2.png">
+                    <img src="./assets/images/proj_img_2.png" alt="project-two-image">
+                </picture>
+                <h3 class="webProj__post-title title">To Do List App</h3>
+                <a href="https://github.com/godiarksel/my-to-do" class="btn btn--text btn--transparent" target="_blank">View more</a>
+            </article>
+            <article class="webProj__post post--left">
+                <picture class="webProj__post-image">
+                    <source media="(min-width: 450px)" srcset="./assets/images/movie-site.png">
+                    <img src="./assets/images/movie-site.PNG" alt="project-three-image">
+                </picture>
+                <h3 class="webProj__post-title title">React Movie Searcher</h3>
+                <a href="https://github.com/godiarksel/react-movie-site" class="btn btn--text btn--transparent" target="_blank">View More</a>
+            </article>
+        </div>
+    </section>
+
+    <!--! === ABOUT === -->
+    <section class="about" id="aboutme">
+        <div class="about__container container">
+            <div class="about__information">
+                <h2 class="about__information-title title">About Godfrey Arksel</h2>
+                    <p class="about__information-description">
+                        I'm always trying to come up with cool and unique stuff, striving to turn a blank screen into a digital masterpiece. 
+                        With a mix of technical skills, imagination and a mug of coffee, I can create quite some impressive things. 
+                    </p>
+                    <p class="about__information-description">
+                        Whether it's designing eye-catching graphics or crafting beautiful websites, my creativity knows no bounds. 
+                        I'm constantly pushing the limits and finding new ways to make things visually appealing and engaging. 
+                        You can always count on me to bring a fresh perspective and innovative ideas to any project.
+                    </p>
+                    <!-- <a href="#" class="btn btn--text btn-green">Learn More</a> -->
+            </div>
+            <div class="about__images">
+                <img src="./assets/images/saturn.png" alt="" class="about__images-image about__images-image--top">
+                <img src="./assets/images/venus.png" alt="" class="about__images-image about__images-image--bottom">
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!--! === FOOTER === -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__group">
+                <h2 class="footer__title title title--main">Looking for a developer? Designer maybe?</h2>
+                <a href="mailto:godiarksel@gmail.com" class="btn btn--text btn--transparent" target="_blank">Contact Me</a>
+            </div>
+            <span class="footer__separator"></span>
+            <div class="footer__group">
+                <a href="./index.html" class="footer__logo">
+                    <img src="./assets/images/mylogo.png" width="350" alt="my-logo">
+                </a>
+                <p class="footer__description">
+                    "Grant me the serenity to accept the things I cannot change, 
+                    courage to change the things I can, 
+                    and the wisdom to know the difference."
+                </p>
+                <ul class="footer__list">
+                   <li class="footer__list-item">
+                    <a href="https://www.behance.net/godfreyarksel" class="footer__list-link" target="_blank">
+                        <i class="ri-behance-line"></i>
+                    </a>
+                   </li> 
+                   <li class="footer__list-item">
+                    <a href="https://linkedin.com/in/godfrey-mwandembo-045667127/" class="footer__list-link" target="_blank">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                   </li> 
+                   <li class="footer__list-item">
+                    <a href="https://github.com/godiarksel" class="footer__list-link" target="_blank">
+                        <i class="ri-github-line"></i>
+                    </a>
+                   </li> 
+                </ul>
+                <span class="footer__copyright">&copy; Godfrey Arksel 2023. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- SWIPERJS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
