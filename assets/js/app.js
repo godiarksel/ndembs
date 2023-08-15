@@ -108,16 +108,28 @@ const cards = [
         source: './assets/images/fourth.png'
     },
     {
-        link: 'https://www.behance.net/gallery/166049267/BST',
-        source: './assets/images/fifth.png'
+        link: 'https://www.behance.net/gallery/177705045/Me',
+        source: './assets/images/fifth.PNG'
     },
     {
         link: 'https://www.behance.net/gallery/174025151/Samurai',
         source: './assets/images/sixth.png'
     },
     {
-        link: 'https://www.behance.net/gallery/166419031/somewhere',
-        source: './assets/images/seventh.jpg'
+        link: 'https://www.behance.net/gallery/177643669/Ninja',
+        source: './assets/images/seventh.PNG'
+    },
+    {
+        link: 'https://www.behance.net/gallery/177644861/Golden-Child',
+        source: './assets/images/eighth.PNG'
+    },
+    {
+        link: 'https://www.behance.net/gallery/177353575/Dokkodo-Vol2',
+        source: './assets/images/ninth.PNG'
+    },
+    {
+        link: 'https://www.behance.net/gallery/177644591/Dark-Warrior',
+        source: './assets/images/tenth.PNG'
     }
 ]
 
