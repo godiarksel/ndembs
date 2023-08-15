@@ -108,10 +108,6 @@ const cards = [
         source: './assets/images/fourth.png'
     },
     {
-        link: 'https://www.behance.net/gallery/177708865/BG-Special-Poster',
-        source: './assets/images/fifth.PNG'
-    },
-    {
         link: 'https://www.behance.net/gallery/174025151/Samurai',
         source: './assets/images/sixth.png'
     },
