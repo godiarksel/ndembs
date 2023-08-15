@@ -109,7 +109,7 @@ const cards = [
     },
     {
         link: 'https://www.behance.net/gallery/177705045/Me',
-        source: './assets/images/fifth.PNG'
+        source: './assets/images/fifth.png'
     },
     {
         link: 'https://www.behance.net/gallery/174025151/Samurai',
