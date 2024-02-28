@@ -108,23 +108,28 @@ const cards = [
         source: './assets/images/fourth.png'
     },
     {
-        link: 'https://www.behance.net/gallery/174025151/Samurai',
+
+        link: 'https://www.behance.net/gallery/192444697/Elehog-Sports',
+        source: './assets/images/fifth.PNG'
+    },
+    {
+        link: 'https://www.behance.net/gallery/188197647/Intuition',
         source: './assets/images/sixth.png'
     },
     {
-        link: 'https://www.behance.net/gallery/177643669/Ninja',
+        link: 'https://www.behance.net/gallery/192443843/Faridahs-Jewelry',
         source: './assets/images/seventh.PNG'
     },
     {
-        link: 'https://www.behance.net/gallery/177644861/Golden-Child',
+        link: 'https://www.behance.net/gallery/178851013/The-Bull',
         source: './assets/images/eighth.PNG'
     },
     {
-        link: 'https://www.behance.net/gallery/177353575/Dokkodo-Vol2',
+        link: 'https://www.behance.net/gallery/180786605/K-Branding',
         source: './assets/images/ninth.PNG'
     },
     {
-        link: 'https://www.behance.net/gallery/177644591/Dark-Warrior',
+        link: 'https://www.behance.net/gallery/180787271/Logos-Anyone',
         source: './assets/images/tenth.PNG'
     }
 ]
