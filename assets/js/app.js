@@ -110,7 +110,7 @@ const cards = [
     {
 
         link: 'https://www.behance.net/gallery/192444697/Elehog-Sports',
-        source: './assets/images/fifth.PNG'
+        source: './assets/images/fifth.png'
     },
     {
         link: 'https://www.behance.net/gallery/188197647/Intuition',
